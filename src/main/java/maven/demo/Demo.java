@@ -17,8 +17,11 @@ public class Demo {
 			System.setProperty("webdriver.chrome.driver", "D:\\soft garden\\chromedriver_win32_2\\chromedriver.exe");
 			WebDriver driver=new ChromeDriver();
 			String URL="https://www.facebook.com/";
-			System.out.println("hi");
+			
 			driver.get(URL);
+			
+			System.out.println("hi");
+			System.out.println("hello");
 			driver.close();
 			}
 		}
